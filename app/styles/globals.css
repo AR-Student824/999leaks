@@ -1,1 +1,4 @@
 @import url("https://frcss.vercel.app/formrocket.css");
+img {
+    border-radius: 6px;
+}
