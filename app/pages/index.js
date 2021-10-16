@@ -24,7 +24,7 @@ export default function Home() {
           {leaks.leaks.map((leak, index) => (
             <>
             <a href={leak.audio} className="frcss_card">
-              <Image width="200px" height="200px" alt={leak.title} src={'/api/proxy?url='+encodeURIComponent(leak.image)} />
+              <Image width="200px" height="200px" alt={leak.title} src={'/api/proxy?url='+encodeURIComponent(leak.cover)} />
             <h3>{leak.title}</h3>
           </a>
           </>
