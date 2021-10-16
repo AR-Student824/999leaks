@@ -17,7 +17,7 @@ export default function Home() {
         </h1>
 
         <p>
-            All the Juice WRLD leaks in one place
+            999leaks does not host any copyrighted material; all material is hosted by third parties.
         </p>
 
         <div className="frcss_cardGrid">
