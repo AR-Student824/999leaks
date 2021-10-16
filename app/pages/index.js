@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import leaks from './leaks.json'
 
 export default function Home() {
   return (
@@ -20,27 +21,14 @@ export default function Home() {
         </p>
 
         <div className="frcss_cardGrid">
-          <a href="https://nextjs.org/docs" className="frcss_card">
-            <h3>Documentation</h3>
+          {leaks.leaks.map(leak, index => (
+            <a href={leak.audio} className="frcss_card">
+              <Image width="200px" height="200px" alt={leak.title} />
+            <h3>{leak.title}</h3>
           </a>
+          ))}
+          
 
-          <a href="https://nextjs.org/learn" className="frcss_card">
-            <h3>Learn</h3>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className="frcss_card"
-          >
-            <h3>Examples</h3>
-          </a>
-
-          <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className="frcss_card"
-          >
-            <h3>Deploy</h3>
-          </a>
         </div>
       </main>
     </div>
