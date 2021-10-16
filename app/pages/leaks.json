@@ -6,6 +6,13 @@
         "title": "Meadows",
         "era": "DRFL",
         "cover": "https://media.discordapp.net/attachments/859245825472856084/897921981188546610/image0.jpg?width=427&height=427"
+    },
+    {
+        "key": 0,
+        "audio": "https://www.youtube.com/watch?v=3GHjs5h1euk",
+        "title": "Victorious",
+        "era": "DRFL",
+        "cover": "https://media.discordapp.net/attachments/859245825472856084/896803914849091635/image0.jpg?width=427&height=427"
     }
 ]
 }
