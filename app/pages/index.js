@@ -21,14 +21,14 @@ export default function Home() {
         </p>
 
         <div className="frcss_cardGrid">
-          {leaks.leaks.map((leak, index) => {
+          {leaks.leaks.map((leak, index) => (
             <>
             <a href={leak.audio} className="frcss_card">
               <Image width="200px" height="200px" alt={leak.title} />
             <h3>{leak.title}</h3>
           </a>
           </>
-          })}
+          ))}
           
 
         </div>
