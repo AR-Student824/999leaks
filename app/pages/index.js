@@ -26,7 +26,8 @@ export default function Home() {
             <a href={leak.audio} className="frcss_card">
               <Image width="200px" height="200px" alt={leak.title} src={'/api/proxy?url='+encodeURIComponent(leak.cover)} />
             <h3>{leak.title}</h3>
-            <p><b>Juice WRLD</b> &bull; {leak.era} Era</p>
+            <p><b>Juice WRLD</b></p>
+            <p>{leak.era} Era</p>
           </a>
           </>
           ))}
