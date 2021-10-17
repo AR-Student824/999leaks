@@ -34,6 +34,13 @@
         "title": "Help Me (27 Club v2)",
         "era": "GBGR",
         "cover": "https://assets.audiomack.com/liljoffical/3eda3b4d380c3b900c137b1605814e3437bc3942c8dd1c7f6b9c1129f7d586fb.jpeg"
+    },
+    {
+        "key": 0,
+        "audio": "https://www.youtube.com/watch?v=DRQlUSsM19g",
+        "title": "Bricks",
+        "era": "999",
+        "cover": "https://i.imgur.com/2DkX9qQ.png"
     }
 ]
 }
