@@ -55,6 +55,13 @@
         "title": "Animal (But How)",
         "era": "WOD",
         "cover": "https://media.discordapp.net/attachments/897633217937559613/899423208749559818/unknown.png"
+    },
+    {
+        "key": 0,
+        "audio": "https://pbs.twimg.com/media/EclLKbpWAAAcums.jpg:large",
+        "title": "Arctic Tundra OG",
+        "era": "WOD",
+        "cover": "https://youtube.com/watch?v=3Mv1HRfyAl0"
     }
 ]
 }
