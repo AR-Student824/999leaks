@@ -12,7 +12,7 @@ export default function Home() {
       </Head>
 
       <main>
-        <Image src="https://i.imgur.com/vzEMTFM.png" width="200px" height="200px" alt="999leaks logo" />
+        <Image src="/proxy?url=https%3A%2F%2Fimgur.com%2FvzEMTFM" width="200px" height="200px" alt="999leaks logo" />
         <h1>
           999leaks
         </h1>
