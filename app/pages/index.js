@@ -7,7 +7,6 @@ export default function Home() {
     <div>
       <Head>
         <title>999leaks</title>
-
         <link rel="icon" href="https://i.imgur.com/vzEMTFM.png" />
       </Head>
 
