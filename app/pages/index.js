@@ -12,7 +12,7 @@ export default function Home() {
       </Head>
 
       <main>
-        <Image src="/api/proxy?url=https://images-ext-1.discordapp.net/external/EahYjo8LdCxRDGmjhKuNn3b0mT0oqchDBKJ1kITJahE/https/i.imgur.com/vzEMTFM.png?width=427&height=427" width="200px" height="200px" alt="999leaks logo" />
+        <Image src="/api/proxy?url=https://media.discordapp.net/attachments/897633217937559613/899126295181557780/vzEMTFM.png" width="200px" height="200px" alt="999leaks logo" />
         <h1>
           999leaks
         </h1>
